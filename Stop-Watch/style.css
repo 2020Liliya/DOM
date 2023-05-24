@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1684525749135-2ad4a531a04e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80") no-repeat center center / cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 320px;
+  height: 250px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media (max-width: 430px) {
+  .container {
+    width: 90%;
+  }
+}
+
+#timer {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 500;
+  color: rgb(17, 17, 29);
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  margin: 0 10px;
+  border: none;
+}
+
+i {
+  font-size: 2rem;
+  padding: 10px;
+  color: #fff;
+  width: 50px;
+}
+
+#play {
+  background: rgb(3, 153, 60);
+}
+
+#pause {
+  background: orangered;
+}
+
+#reset {
+  background: rgb(194, 0, 0);
+}
