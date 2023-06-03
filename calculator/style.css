@@ -1,0 +1,40 @@
+html {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.calculator {
+  max-width: 500px;
+  text-align: center;
+  background: rgb(220, 221, 255);
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 30px;
+  user-select: none;
+}
+
+.calculator .operations-block button {
+  margin: 4px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calculator .inputs-block .input-block label {
+  display: block;
+}
+
+.calculator .inputs-block .input-block input {
+  border-radius: 20px;
+}
+
+.calculator .inputs-block .input-block {
+  display: inline-block;
+}
+
+.calculator .inputs-block .input-block>* {
+  height: 30px;
+}
